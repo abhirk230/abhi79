@@ -1,0 +1,10 @@
+>>> text1 = "monkeys like Bananas"
+>>> print(name.lower())
+abhi
+>>> print(text1.lower())
+monkeys like bananas
+>>> print(name.upper())
+ABHI
+>>> print(text1.upper())
+MONKEYS LIKE BANANAS
+>>> 
