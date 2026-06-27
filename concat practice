@@ -1,0 +1,9 @@
+>>> first = "bob"
+>>> second = "cat"
+>>> result = first + " " + second
+>>> print(result)
+bob cat
+>>> age = 15
+>>> print(f"{name} is {age} years old")
+abhi is 15 years old
+>>> 
