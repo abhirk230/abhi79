@@ -1,0 +1,56 @@
+PS C:\Users\kiran\abhi79> python
+PS C:\Users\kiran\abhi79> python3
+PS C:\Users\kiran\abhi79> python
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print fruits(apple, ,banana)
+  File "<python-input-0>", line 1
+    print fruits(apple, ,banana)
+    ^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+>>> print(fruits)
+Traceback (most recent call last):
+  File "<python-input-1>", line 1, in <module>
+    print(fruits)
+          ^^^^^^
+NameError: name 'fruits' is not defined
+>>> fruits = ["apple", "banana", "mango"]
+>>> print(fruits)
+['apple', 'banana', 'mango']
+>>> print(fruits[0])
+apple
+>>> fruits = ["apple", "banana", "mango", "orange", "pineapple"]
+>>> print(fruits)
+['apple', 'banana', 'mango', 'orange', 'pineapple']
+>>> fruits.sort()
+>>> print(fruits)
+['apple', 'banana', 'mango', 'orange', 'pineapple']
+>>> fruits.sort(reverse=True)
+>>> print(fruits)
+['pineapple', 'orange', 'mango', 'banana', 'apple']
+>>> fruts.insert(1, "grape")
+Traceback (most recent call last):
+  File "<python-input-11>", line 1, in <module>
+    fruts.insert(1, "grape")
+    ^^^^^
+NameError: name 'fruts' is not defined. Did you mean: 'fruits'?
+>>> fruits.insert(1, "grape")
+>>> print(fruits)
+['pineapple', 'grape', 'orange', 'mango', 'banana', 'apple']
+>>> list[0:3]
+list[slice(0, 3, None)]
+>>> print(fruits)
+['pineapple', 'grape', 'orange', 'mango', 'banana', 'apple']
+>>> list[0:2]
+list[slice(0, 2, None)]
+>>> print
+<built-in function print>
+>>> print(fruits)
+['pineapple', 'grape', 'orange', 'mango', 'banana', 'apple']
+>>> print(fruits[0:3])
+['pineapple', 'grape', 'orange']
+>>> print(fruits[-2:])
+['banana', 'apple']
+>>> print(fruits[-2:1])
+[]
+>>> 
