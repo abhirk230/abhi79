@@ -1,0 +1,4 @@
+if age >=13:
+print("allowed to watch")
+else:
+print("not allowed to watch")
